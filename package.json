@@ -11,7 +11,7 @@
     "server": "node ./server/index.js",
     "start": "serve ./",
     "build": "next build",
-    "deploy": "yarn generate && touch docs/.nojekyll &&  git add docs/ && git commit -m \"update docs\" && git subtree push --prefix docs origin gh-pages"
+    "deploy": "yarn generate && git add .&& git commit -m \"update docs\" && git push origin master"
 
   },
   "dependencies": {
