@@ -32,7 +32,7 @@ export default class Header extends Component {
                      className="navbar-item">文档</a>
                   <a href={`https://github.com/dittoJS/ditto`}
                      className="navbar-item">Github</a>
-                  <a href="www.yangxiaofu.com"
+                  <a href="http://www.yangxiaofu.com"
                         className="navbar-item">博客</a>
                 </div>
               </div>
