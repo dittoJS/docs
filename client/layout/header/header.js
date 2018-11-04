@@ -1,6 +1,7 @@
 import 'bulma';
 import './header.scss';
 import '../../../client/layout/common/markdown.scss';
+import utils from '../../utils.js';
 
 import { Component } from 'react';
 
@@ -26,8 +27,8 @@ export default class Header extends Component {
                 <div onClick={() => { this.toggleNavActiveClass(this.state.isActive) }} 
                     className={"navbar-menu " + this.state.isActive}>
                 <div className="navbar-end">
-                        <a href={`/docs/`} className="navbar-item">首页</a>
-                        <a href={`/docs/doc/304bca36-3be9-4c89-955f-a7ac8693d470`}
+                        <a href={utils.url('/')} className="navbar-item">首页</a>
+                        <a href={utils.url(`/doc/304bca36-3be9-4c89-955f-a7ac8693d470`)}
                      className="navbar-item">文档</a>
                   <a href={`https://github.com/dittoJS/ditto`}
                      className="navbar-item">Github</a>

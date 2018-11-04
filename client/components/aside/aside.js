@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import utils from '../../utils.js';
 
 import "./aside.scss";
 export default class ASide extends Component {
@@ -19,7 +20,7 @@ export default class ASide extends Component {
                                         let isActive = item.key == url.query.id ? 'is-active' : '';
                                 return (
                                                 <li key={item.key}>
-                                                    <a className={isActive} href={`/docs${this.props.prefix}/${item.key}`}>{item.title}</a>
+                                                    <a className={isActive} href={utils.url(`${this.props.prefix}/${item.key}`)}>{item.title}</a>
                                                 </li>
                                             )
                                         })

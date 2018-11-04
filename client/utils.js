@@ -15,5 +15,10 @@ export const Http = {
 }
 
 export function url (href) {
-    return config.assetsPrefix + href;
+    return Config.assetsPrefix + href;
+}
+
+
+export default {
+    url
 }
