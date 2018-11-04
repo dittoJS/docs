@@ -36,7 +36,7 @@ export default class HomePage extends Component {
                     </h2>{" "}
                     <div className="container">
                         <a
-                            href="/docs/docs/doc/304bca36-3be9-4c89-955f-a7ac8693d470"
+                            href="/docs/doc/304bca36-3be9-4c89-955f-a7ac8693d470"
                             class="button is-info is-outlined"
                         >
                             开始使用{" "}

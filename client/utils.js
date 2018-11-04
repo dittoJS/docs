@@ -15,7 +15,7 @@ export const Http = {
 }
 
 export function url (href) {
-    return Config.assetsPrefix + href;
+    return Config.assetPrefix + href;
 }
 
 
