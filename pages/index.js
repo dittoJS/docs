@@ -28,7 +28,7 @@ export default class HomePage extends Component {
                 <section className="banner introduction">
                     <h1 className="">
                         {" "}
-                        DittoJs 是一个开放式的跨平台、 框架编译转换工具{" "}
+                        dittoJS 是一个开放式的跨平台、 框架编译转换工具{" "}
                     </h1>{" "}
                     <h2 className="">
                         {" "}
