@@ -1,0 +1,33 @@
+{
+  "name": "yangxiaofu-blog",
+  "version": "0.0.1",
+  "description": "the new blog of fec!",
+  "main": "index.js",
+  "author": "yangxiaofu",
+  "license": "MIT",
+  "scripts": {
+    "generate": "NODE_ENV='production' && next build && next export -o docs",
+    "dev": "next -p 4001",
+    "server": "node ./server/index.js",
+    "start": "serve docs",
+    "build": "ls",
+    "lint": "ls"
+  },
+  "dependencies": {
+    "@rokt33r/season": "^5.3.1",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
+    "bulma": "^0.7.1",
+    "dayjs": "^1.7.7",
+    "express": "^4.16.3",
+    "fs-extra": "^7.0.0",
+    "highlight.js": "^9.12.0",
+    "marked": "^0.5.1",
+    "mds-to-json": "^0.0.4",
+    "next": "^7.0.1",
+    "node-sass": "^4.9.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "sander": "^0.6.0"
+  }
+}

@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+div.markdown-body {
+    margin-top: 20px;
+    background: #ffffff;
+}
+
+body nav.navbar.is-black {
+    background: rgb(43, 58, 66);
+
+    .navbar-menu {
+        a.navbar-item {
+            font-weight: bold;
+        }
+    }
+}
+
+.navbar-brand .narbar-item {
+    img {
+        height: auto;
+        max-height: none;
+    }
+}
+
+.navbar-burger .burger {
+    height: auto;
+}
+
+body .container table {
+    min-width: 50%;
+}
+
+.markdown-body blockquote {
+    padding: 0.5em 1em;
+}
+
+body .markdown-body a {
+    color: rgb(26, 107, 172);
+}
+
+body .menu-list a.is-active {
+    background-color: rgba(26, 107, 172, .9);
+}
+
+body .nav-transition {
+    background: #f2f2f2;
+    width: 100%;
+    height: 20px;
+}

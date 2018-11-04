@@ -1,0 +1,17 @@
+.iphone-wrap {
+    position: relative;
+    width: 210px;
+    height: 419.517px;
+    margin: 0px auto;
+    background-size: cover;
+    background-image: url(/static/img/iphone-6-silver.png);
+
+    .screen {
+        position: absolute;
+        top: 48.7586px;
+        left: 14.4828px;
+        width: 181.034px;
+        height: 322px;
+        background-color: white;
+    }
+}

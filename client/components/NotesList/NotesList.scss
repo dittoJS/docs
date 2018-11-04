@@ -1,0 +1,22 @@
+.notes-list {
+    .note-item {
+        list-style-type: disc;
+        margin-bottom: 15px;
+
+        .note-item-title {
+            font-size: 16px;
+            color: #333;
+            text-decoration: none;
+
+            &:hover {
+                color: #000;
+            }
+        }
+
+        .create-time {
+            display: block;
+            font-size: 13px;
+            color: #888;            
+        }
+    }
+}

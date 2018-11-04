@@ -1,0 +1,79 @@
+.menu .menu-list {
+  padding-left: 0; }
+  .menu .menu-list li {
+    list-style: none; }
+
+.menu-wrap {
+  position: relative;
+  display: flex; }
+  .menu-wrap .menu-side {
+    width: 180px; }
+  .menu-wrap .menu-body {
+    flex: 1;
+    display: flex;
+    padding-left: 20px; }
+    .menu-wrap .menu-body .content {
+      flex: 1; }
+    .menu-wrap .menu-body .silver {
+      width: 240px; }
+
+.iphone-wrap {
+  position: relative;
+  width: 210px;
+  height: 419.517px;
+  margin: 0px auto;
+  background-size: cover;
+  background-image: url(/static/img/iphone-6-silver.png); }
+  .iphone-wrap .screen {
+    position: absolute;
+    top: 48.7586px;
+    left: 14.4828px;
+    width: 181.034px;
+    height: 322px;
+    background-color: white; }
+
+.page-wrapper .banner {
+  height: calc(100vh - 50px);
+  min-height: 320px;
+  max-height: 720px;
+  text-align: center; }
+
+.page-wrapper .introduction {
+  background: #2B3A42;
+  text-align: center;
+  color: #fff;
+  padding-top: 200px; }
+  .page-wrapper .introduction h1 {
+    font-size: 38px; }
+  .page-wrapper .introduction h2 {
+    font-size: 24px; }
+  .page-wrapper .introduction .container {
+    padding-top: 100px; }
+    .page-wrapper .introduction .container .button {
+      width: 100px;
+      margin-right: 15px; }
+
+.page-wrapper .showcase {
+  background: #f5f5f5; }
+  .page-wrapper .showcase .container {
+    position: relative;
+    height: 100%; }
+    .page-wrapper .showcase .container .level {
+      position: relative;
+      height: 100%;
+      line-height: 1;
+      display: flex; }
+      .page-wrapper .showcase .container .level .level-item {
+        flex: 1; }
+        .page-wrapper .showcase .container .level .level-item .subtitle {
+          margin-bottom: 20px;
+          color: #111111; }
+        .page-wrapper .showcase .container .level .level-item p {
+          line-height: 1.5; }
+
+.page-wrapper .support .container {
+  position: relative;
+  height: 100%; }
+  .page-wrapper .support .container .columns {
+    padding-top: 150px; }
+
