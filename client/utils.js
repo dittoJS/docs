@@ -14,7 +14,7 @@ export const Http = {
     } 
 }
 
-export function url (href) {
+export function url (href = '') {
     return Config.assetPrefix + href;
 }
 

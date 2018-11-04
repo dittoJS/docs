@@ -11,7 +11,8 @@
     "server": "node ./server/index.js",
     "start": "serve ./",
     "build": "next build",
-    "src": "next"
+    "deploy": "yarn generate && touch docs/.nojekyll &&  git add docs/ && git commit -m \"update docs\" && git subtree push --prefix docs origin gh-pages"
+
   },
   "dependencies": {
     "@rokt33r/season": "^5.3.1",

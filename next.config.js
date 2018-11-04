@@ -56,6 +56,7 @@ let nextConfigJs = {
     // saveStorge();
     return Object.assign(pages, postPages);
   },
-  assetPrefix: assetPrefix
+  assetPrefix: assetPrefix,
+  dir: 'build'
 };
 module.exports = withSass(nextConfigJs)
