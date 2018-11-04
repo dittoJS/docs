@@ -1,13 +1,12 @@
 import { Component } from 'react';
 
 import "./aside.scss";
-
 export default class ASide extends Component {
     render () {
         const menuObjec = this.props.menu || [0, 1];
         const url = this.props.url;
         return (
-            <aside className="menu menu-side">
+            <div className="menu menu-side">
                 {
                     menuObjec.map((menu, i) => {
                         return <div key={i}>
@@ -20,7 +19,7 @@ export default class ASide extends Component {
                                         let isActive = item.key == url.query.id ? 'is-active' : '';
                                 return (
                                                 <li key={item.key}>
-                                                    <a className={isActive} href={`${this.props.prefix}/${item.key}`}>{item.title}</a>
+                                                    <a className={isActive} href={`/docs${this.props.prefix}/${item.key}`}>{item.title}</a>
                                                 </li>
                                             )
                                         })
@@ -29,7 +28,7 @@ export default class ASide extends Component {
                           </div>;
                     })
                 }
-            </aside>
+            </div>
         );
     }
 

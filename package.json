@@ -9,9 +9,9 @@
     "generate": "NODE_ENV='production' && next build && next export -o docs",
     "dev": "next -p 4001",
     "server": "node ./server/index.js",
-    "start": "serve docs",
-    "build": "ls",
-    "lint": "ls"
+    "start": "serve ./",
+    "build": "next build",
+    "src": "next"
   },
   "dependencies": {
     "@rokt33r/season": "^5.3.1",

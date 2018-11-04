@@ -13,8 +13,8 @@ export default class Header extends Component {
         return <nav className="navbar is-black" role="navigation" aria-label="main navigation">
             <div className="container">
               <div className="navbar-brand">
-                    <a className="navbar-item" href="/">
-                  <img style={{ maxHeight: "none" }} src="/static/img/ditto-logo.png" width="72"/>
+                    <a className="navbar-item" href={`/docs/`}>
+                  <img style={{ maxHeight: "none" }} src={`/docs/static/img/ditto-logo.png`} width="72"/>
                 </a>
                 <div onClick={() => {this.toggleNavActiveClass(this.state.isActive)}} 
                     className={'navbar-burger burger ' + this.state.isActive} data-target="navMenuDocumentation">
@@ -26,10 +26,10 @@ export default class Header extends Component {
                 <div onClick={() => { this.toggleNavActiveClass(this.state.isActive) }} 
                     className={"navbar-menu " + this.state.isActive}>
                 <div className="navbar-end">
-                        <a href="/ditt/home" className="navbar-item">首页</a>
-                        <a href="/doc/304bca36-3be9-4c89-955f-a7ac8693d470"
+                        <a href={`/docs/`} className="navbar-item">首页</a>
+                        <a href={`/docs/doc/304bca36-3be9-4c89-955f-a7ac8693d470`}
                      className="navbar-item">文档</a>
-                  <a href='https://github.com/dittoJS/ditto'
+                  <a href={`https://github.com/dittoJS/ditto`}
                      className="navbar-item">Github</a>
                   <a href="www.yangxiaofu.com"
                         className="navbar-item">博客</a>

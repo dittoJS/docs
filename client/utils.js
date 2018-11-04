@@ -1,5 +1,5 @@
 import axios from "axios";
-
+import Config from "../config.js";
 const localhost = 'http://localhost:3000';
 export const Http = {
     get: async function (path, params, cb = () => {}) {
@@ -12,4 +12,8 @@ export const Http = {
             console.error(error);
         }
     } 
+}
+
+export function url (href) {
+    return config.assetsPrefix + href;
 }

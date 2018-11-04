@@ -6,9 +6,8 @@ const Config = require('./config.js');
 const path = require('path');
 
 const _path = Config.storgePath || "/Users/yangxiaofu/Boostnote";
+const assetPrefix = Config.assetPrefix;
 
-
-const debug = process.env.NODE_ENV !== "production";
 function saveStorge () {
     fs.emptyDirSync("./storge");
     fs.copySync(_path, './storge', {
@@ -57,6 +56,6 @@ let nextConfigJs = {
     // saveStorge();
     return Object.assign(pages, postPages);
   },
-  // assetPrefix: !debug ? "/Next-gh-page-example/" : ""
+  assetPrefix: assetPrefix
 };
 module.exports = withSass(nextConfigJs)
